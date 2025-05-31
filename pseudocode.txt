@@ -13,6 +13,8 @@
         - postal code
         - password
         - password confirmation
+    Done
+Wip
 
 2. add the js code
     2a. that checks validation
@@ -24,3 +26,5 @@
     3a. by using pseudoclasses
         - :valid
         - :invalid
+    Done
+Done

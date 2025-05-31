@@ -9,35 +9,36 @@
 <body>
     <div class="container">
         <div class="form-container">
-            <form>
-                <div class="email-container">
+            <form action="/action_page.php" novalidate>
+                <div class="form-grid">
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
-                </div>
-                <div class="country-container">
+                    
                     <label for="country">Country:</label>
-                    <input type="text" id="country" name="country" required>
-                </div>
-                <div class="zipcode-container">
+                    <select name="country" id="country" required>
+                        <option value="Canada" selected="selected">Canada</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="United States">United States</option>
+                    </select>
+                    
                     <label for="zipcode">Zipcode:</label>
-                    <input type="text" id="zipcode" name="zipcode" required>
-                </div>
-                <div class="password-container">
+                    <input type="text" id="zipcode" name="zipcode" pattern="[A-Z0-9]{6}" required>
+                    
                     <label for="password">Password:</label>
                     <input type="password" id="password" name="password" required>
-                </div>
-                <div class="confirm-container">
+                    
                     <label for="confirm">Confirm Password:</label>
                     <input type="password" id="confirm" name="confirm" required>
-                </div>
-                <div class="button-container">
-                    <button type="submit" value="Submit">Submit</button>
-                    <button type="reset" value="Reset">Reset</button>
+                    
+                    <div class="button-container">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </div>
                 </div>
             </form>
         </div>
     </div>
     
-     <script src="script.js"></script> 
+    <script src="script.js"></script> 
 </body>
 </html>

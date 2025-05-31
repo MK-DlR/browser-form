@@ -1,5 +1,6 @@
 5/31/25:
 
+- Add css styling to form
 - Create basic html form setup
 - Create pseudocode
 - Create changelog
