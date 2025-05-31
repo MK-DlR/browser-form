@@ -14,17 +14,16 @@
         - password
         - password confirmation
     Done
-Wip
+Done
 
 2. add the js code
     2a. that checks validation
         - as the user progresses through the form
+    Done
     2b. when the user leaves a form field
         - it should automatically validate that field
-
-3. style validations with css
-    3a. by using pseudoclasses
-        - :valid
-        - :invalid
     Done
 Done
+
+3. if form is successfully "submitted"
+    3a. give user alert

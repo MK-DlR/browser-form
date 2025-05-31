@@ -1,5 +1,7 @@
 5/31/25:
 
+- Add form validation if individual inputs are validated
+- Add individual input validations
 - Add css styling to form
 - Create basic html form setup
 - Create pseudocode

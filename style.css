@@ -28,7 +28,6 @@
             max-width: 400px;
         }
 
-        /* Method 1: CSS Grid (Recommended) */
         .form-grid {
             display: grid;
             grid-template-columns: 1fr 2fr;
@@ -51,6 +50,7 @@
             font-size: 14px;
         }
 
+        /*
         .form-grid input:valid {
             border-color: #28a745;
         }
@@ -58,6 +58,7 @@
         .form-grid input:invalid {
             border-color: #dc3545;
         }
+        */
 
         .button-container {
             grid-column: 1 / -1;
