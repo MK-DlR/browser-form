@@ -1,0 +1,26 @@
+1. set up html form elements
+    1a. remember to use novalidate
+        - to allow all validation to be done in js
+        - should use live inline validation
+            - to inform user if field is properly filled in
+            - by highlighting field red
+            - and providing error message
+    1b. can use different input types
+        - but need to use js to check and report validity
+    1c. form sections
+        - email
+        - country
+        - postal code
+        - password
+        - password confirmation
+
+2. add the js code
+    2a. that checks validation
+        - as the user progresses through the form
+    2b. when the user leaves a form field
+        - it should automatically validate that field
+
+3. style validations with css
+    3a. by using pseudoclasses
+        - :valid
+        - :invalid
