@@ -1,5 +1,6 @@
 5/31/25:
 
+- Create basic html form setup
 - Create pseudocode
 - Create changelog
 - Create html file with boilerplate and link script.js and style.css
